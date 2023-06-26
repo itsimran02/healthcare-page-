@@ -1,0 +1,46 @@
+.section-services {
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-services .paragraph {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    /* line-height: 1.6rem; */
+}
+
+.grid p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #7D7987;
+}
+
+.grid>div {
+    background: #FFFFFF;
+    /* drop shadow */
+    box-shadow: 1rem 4rem 5rem rgba(229, 233, 246, 0.4);
+    border-radius: 2rem;
+    padding: 5rem;
+    flex-basis: 31.33%;
+    transition: all .2s;
+}
+
+.grid>div:hover {
+    transform: scale(1.1);
+    box-shadow: 1rem 4rem 5rem rgba(229, 233, 246, 0.6);
+}
+
+.learn-more {
+    align-self: center;
+}

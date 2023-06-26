@@ -1,0 +1,108 @@
+.section-review {
+    padding: 6rem 6rem;
+}
+
+.section-review__background {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 6rem;
+    position: relative;
+    z-index: 55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.review-heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.review-background-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-background-heading-container .hr {
+    background-color: #FFFFFF !important;
+}
+
+.section-review__right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-review__left {
+    flex: 1;
+}
+
+.review__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.section-review p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+    color: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+}
+
+.section-review h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    /* line-height: 2; */
+    /* identical to box height, or 218% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.review-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6.5rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.bullets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bullets div {
+    width: 10px;
+    margin: 0% 5px;
+    height: 10px;
+    background: #5B9BF3;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+.bullets .current-bullet {
+    background: #5B9BF3;
+    opacity: 1;
+}

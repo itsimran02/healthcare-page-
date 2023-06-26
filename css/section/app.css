@@ -1,0 +1,26 @@
+.section-app {
+    padding: 6rem 6rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-app__right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-app__right .secondary__btn {
+    align-self: flex-start;
+}
+
+.section-app__left img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}

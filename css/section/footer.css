@@ -1,0 +1,53 @@
+.footer__container {}
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100% !important;
+    overflow: hidden;
+    padding: 6rem 6rem;
+}
+
+footer li,
+footer a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: .9;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-elements-heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    /* identical to box height, or 300% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.footer-logo-conatainer {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.footer-elements>div {
+    flex: 1;
+}

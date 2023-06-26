@@ -1,0 +1,25 @@
+.section-about {
+    padding: 6rem 6rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+
+/* kkkkkkkkkkkkkkkkkkkkkkk */
+
+
+/* @media screen and (max-width: 768px) {
+    /* .menu-toggle {
+        display: none;
+    } */
