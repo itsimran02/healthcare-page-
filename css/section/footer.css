@@ -24,6 +24,7 @@ footer a {
 .footer-elements {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .footer-elements-heading {
